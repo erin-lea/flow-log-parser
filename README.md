@@ -1,10 +1,10 @@
 ## Project directory contents
-`main.py`: The main program.
+`main.py`: The main program.  
 `protocol-numbers-1.csv`: A CSV file that maps protocol numbers to protocol names (e.g. 6 -> TCP). Required for the program to work. ([file source](https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml))
 
 ## Running the code
-This program only requires Python to be installed in order to run. Use the command
-`python main.py [flow log filename] [lookup csv filename]`,
+This program only requires Python to be installed in order to run. Use the command  
+`python main.py [flow log filename] [lookup csv filename]`,  
 where [flow log filename] is the filepath to the flow log data file and [lookup csv filename] is the filepath to the lookup table csv.
 
 ## Assumptions
